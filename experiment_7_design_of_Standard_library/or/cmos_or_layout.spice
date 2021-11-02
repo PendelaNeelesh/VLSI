@@ -1,0 +1,37 @@
+* SPICE3 file created from cmos_or_layout.ext - technology: scmos
+
+.model pfet pmos level=3 version=3.3.0
+.model nfet nmos level=3 version=3.3.0
+
+.option scale=1u
+
+M1000 gnd B nortonand Gnd nfet w=3 l=2
++  ad=57 pd=54 as=28 ps=24
+M1001 nortonand B pun_mid_node V_DD pfet w=6 l=2
++  ad=34 pd=24 as=12 ps=16
+M1002 out nortonand gnd Gnd nfet w=3 l=2
++  ad=22 pd=20 as=0 ps=0
+M1003 pun_mid_node A V_DD V_DD pfet w=6 l=2
++  ad=0 pd=0 as=57 ps=46
+M1004 out nortonand V_DD V_DD pfet w=6 l=2
++  ad=26 pd=22 as=0 ps=0
+M1005 nortonand A gnd Gnd nfet w=3 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 V_DD nortonand 3.66fF
+C1 V_DD B 2.23fF
+C2 gnd Gnd 6.34fF
+C3 nortonand Gnd 6.01fF
+C4 B Gnd 5.67fF
+C5 A Gnd 4.66fF
+
+V_A A gnd pulse(0 5 0.1n 0.1n 0.1n 4n 8n)
+V_B B gnd pulse(0 5 0.1n 0.1n 0.1n 2n 4n)
+v_dd V_DD gnd 5
+
+.control
+	tran 0.1n 16n
+	setplot tran1
+	plot A B out
+.endc
+
+.end

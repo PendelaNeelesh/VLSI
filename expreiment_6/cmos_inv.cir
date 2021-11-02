@@ -1,0 +1,23 @@
+* cmos inverter characteristics
+.include ./t14y_tsmc_025_level3.txt
+m1 out in 0 0 cmosn l=1u w=1u 
+m2 out in vdd vdd cmosp l=1u w=15u
+v_dd vdd 0 5
+v_in in 0 dc 2.5 pulse(5 0 0 0.05n 0.05n 1n 2n)
+.control
+    tran 0.01n 2n
+    meas tran t1 when v(out)=0
+    meas tran t2 when v(out)=5
+    meas tran power INTEG i(v_dd) from=0 to=t2
+    print power*2.5
+    print t2-t1
+    setplot tran1
+    plot in out
+    plot -v_dd#branch
+    dc v_in 0 5 0.1 
+    setplot dc1
+    plot in out
+    plot -v_dd#branch
+.endc
+
+.end

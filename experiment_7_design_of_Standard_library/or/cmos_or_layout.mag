@@ -1,0 +1,124 @@
+magic
+tech scmos
+timestamp 1635829968
+<< nwell >>
+rect 8 26 57 42
+<< polysilicon >>
+rect 15 34 17 36
+rect 19 34 21 36
+rect 47 34 49 36
+rect 15 26 17 28
+rect 16 22 17 26
+rect 19 26 21 28
+rect 19 25 31 26
+rect 47 25 49 28
+rect 19 24 30 25
+rect 15 20 21 22
+rect 19 18 21 20
+rect 29 21 30 24
+rect 48 21 49 25
+rect 29 18 31 21
+rect 47 18 49 21
+rect 19 13 21 15
+rect 29 13 31 15
+rect 47 13 49 15
+<< ndiffusion >>
+rect 18 15 19 18
+rect 21 15 23 18
+rect 27 15 29 18
+rect 31 15 32 18
+rect 46 15 47 18
+rect 49 15 51 18
+<< pdiffusion >>
+rect 14 31 15 34
+rect 11 28 15 31
+rect 17 28 19 34
+rect 21 32 26 34
+rect 44 33 47 34
+rect 21 28 23 32
+rect 46 29 47 33
+rect 44 28 47 29
+rect 49 33 52 34
+rect 49 29 50 33
+rect 49 28 52 29
+<< metal1 >>
+rect 12 39 16 42
+rect 20 39 24 42
+rect 28 39 32 42
+rect 36 39 42 42
+rect 8 38 42 39
+rect 46 38 50 42
+rect 54 38 57 42
+rect 10 35 14 38
+rect 42 33 45 38
+rect 27 28 29 32
+rect 10 22 12 25
+rect 23 18 27 28
+rect 51 25 54 29
+rect 34 21 36 24
+rect 43 21 44 25
+rect 51 22 57 25
+rect 51 18 54 22
+rect 14 10 18 14
+rect 32 10 36 14
+rect 8 6 13 9
+rect 17 9 18 10
+rect 17 6 21 9
+rect 25 6 29 9
+rect 33 9 36 10
+rect 43 10 46 14
+rect 33 6 43 9
+rect 47 6 51 9
+rect 55 6 57 9
+<< metal2 >>
+rect 33 28 41 32
+rect 38 25 41 28
+rect 38 21 39 25
+<< ntransistor >>
+rect 19 15 21 18
+rect 29 15 31 18
+rect 47 15 49 18
+<< ptransistor >>
+rect 15 28 17 34
+rect 19 28 21 34
+rect 47 28 49 34
+<< polycontact >>
+rect 12 22 16 26
+rect 30 21 34 25
+rect 44 21 48 25
+<< ndcontact >>
+rect 14 14 18 18
+rect 23 14 27 18
+rect 32 14 36 18
+rect 42 14 46 18
+rect 51 14 55 18
+<< pdcontact >>
+rect 10 31 14 35
+rect 23 28 27 32
+rect 42 29 46 33
+rect 50 29 54 33
+<< m2contact >>
+rect 29 28 33 32
+rect 39 21 43 25
+<< psubstratepcontact >>
+rect 13 6 17 10
+rect 21 6 25 10
+rect 29 6 33 10
+rect 43 6 47 10
+rect 51 6 55 10
+<< nsubstratencontact >>
+rect 8 39 12 43
+rect 16 39 20 43
+rect 24 39 28 43
+rect 32 39 36 43
+rect 42 38 46 42
+rect 50 38 54 42
+<< labels >>
+rlabel metal1 30 40 30 40 5 V_DD
+rlabel metal1 35 7 35 7 1 gnd
+rlabel metal1 56 23 56 23 7 out
+rlabel metal1 35 22 35 22 1 B
+rlabel metal1 11 23 11 23 3 A
+rlabel metal2 35 30 35 30 1 nortonand
+rlabel pdiffusion 18 30 18 30 1 pun_mid_node
+<< end >>

@@ -1,0 +1,26 @@
+timestamp 1635835511
+version 8.2
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "nand_mid_1" 33 0 11 8 ndiff 20 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "gnd" 1478 6063 3 0 ppc 47 40 96 96 0 0 0 0 0 0 0 0 259 168 0 0 0 0
+node "out" 186 1551 49 10 ndiff 22 20 26 22 0 0 0 0 0 0 0 0 74 54 0 0 0 0
+node "nandtoinv" 400 8408 17 8 ndiff 28 22 48 28 58 56 0 0 0 0 0 0 142 88 96 56 0 0
+node "B" 440 7416 15 6 p 0 0 0 0 86 84 0 0 0 0 0 0 32 24 0 0 0 0
+node "A" 393 5636 6 16 pc 0 0 0 0 78 76 0 0 0 0 0 0 28 22 0 0 0 0
+node "V_DD" 10169 0 0 21 nw 112 104 94 70 0 0 0 0 0 0 0 0 360 192 0 0 912 146
+cap "V_DD" "out" 376
+cap "nandtoinv" "B" 240
+cap "V_DD" "nandtoinv" 1808
+cap "V_DD" "B" 1432
+cap "V_DD" "A" 2072
+device mosfet nfet 47 10 48 11 2 3 "Gnd!" "nandtoinv" 4 0 "gnd" 3 0 "out" 3 0
+device mosfet nfet 15 8 16 9 2 5 "Gnd!" "B" 4 0 "nand_mid_1" 5 0 "nandtoinv" 5 0
+device mosfet nfet 9 8 10 9 2 5 "Gnd!" "A" 4 0 "gnd" 5 0 "nand_mid_1" 5 0
+device mosfet pfet 47 23 48 24 2 6 "V_DD" "nandtoinv" 4 0 "V_DD" 6 0 "out" 6 0
+device mosfet pfet 27 23 28 24 2 6 "V_DD" "B" 4 0 "nandtoinv" 6 0 "V_DD" 6 0
+device mosfet pfet 17 23 18 24 2 6 "V_DD" "A" 4 0 "V_DD" 6 0 "nandtoinv" 6 0
+subcap "out" -282
+subcap "A" -376

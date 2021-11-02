@@ -1,0 +1,31 @@
+* SPICE3 file created from cmos_inv_layout.ext - technology: scmos
+.model pfet pmos level=3 version=3.3.0
+.model nfet nmos level=3 version=3.3.0
+.option scale=1u
+
+M1000 out in gnd gnd nfet w=12 l=2
++  ad=22 pd=20 as=19 ps=18
+M1001 out in V_DD V_DD pfet w=24 l=2
++  ad=26 pd=22 as=26 ps=22
+C0 in gnd 4.00fF
+
+v_dd V_DD gnd 5
+v_in in gnd dc 2.5 pulse(5 0 0 0.05n 0.05n 1n 2n)
+.control
+    tran 0.01n 2n
+    meas tran t1 when v(out)=0
+    meas tran t2 when v(out)=4.5
+    meas tran power INTEG i(V_DD) from=0 to=1n
+    meas tran power1 INTEG i(V_DD) from=1n to=2n
+    print (-power+power1)/2
+    print t2-t1
+    setplot tran1
+    plot in out
+    plot -V_DD#branch
+    dc v_in 0 5 0.1 
+    setplot dc1
+    plot in out
+    plot -V_DD#branch
+.endc
+
+.end

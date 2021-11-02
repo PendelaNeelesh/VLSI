@@ -1,0 +1,131 @@
+magic
+tech scmos
+timestamp 1635835511
+<< nwell >>
+rect 0 21 57 37
+<< polysilicon >>
+rect 17 29 19 31
+rect 27 29 29 31
+rect 47 29 49 31
+rect 17 21 19 23
+rect 9 20 19 21
+rect 10 19 19 20
+rect 27 20 29 23
+rect 47 20 49 23
+rect 10 16 11 19
+rect 27 17 28 20
+rect 9 13 11 16
+rect 15 16 28 17
+rect 48 16 49 20
+rect 15 15 29 16
+rect 15 13 17 15
+rect 47 13 49 16
+rect 47 8 49 10
+rect 9 6 11 8
+rect 15 6 17 8
+<< ndiffusion >>
+rect 7 9 9 13
+rect 5 8 9 9
+rect 11 8 15 13
+rect 17 9 19 13
+rect 46 10 47 13
+rect 49 10 51 13
+rect 17 8 21 9
+<< pdiffusion >>
+rect 13 28 17 29
+rect 15 23 17 28
+rect 19 28 27 29
+rect 19 23 21 28
+rect 25 23 27 28
+rect 29 28 33 29
+rect 44 28 47 29
+rect 29 23 31 28
+rect 46 24 47 28
+rect 44 23 47 24
+rect 49 28 52 29
+rect 49 24 50 28
+rect 49 23 52 24
+<< metal1 >>
+rect 0 33 3 37
+rect 7 33 11 37
+rect 15 33 19 37
+rect 23 33 28 37
+rect 32 33 42 37
+rect 46 33 50 37
+rect 54 33 57 37
+rect 11 28 15 33
+rect 32 28 36 33
+rect 20 23 21 25
+rect 35 23 36 28
+rect 42 28 45 33
+rect 3 16 6 20
+rect 20 13 24 23
+rect 51 20 54 24
+rect 32 16 36 20
+rect 43 16 44 20
+rect 51 17 57 20
+rect 51 13 54 17
+rect 23 9 26 13
+rect 3 4 7 9
+rect 43 5 46 9
+rect 0 1 3 4
+rect 7 1 11 4
+rect 15 1 19 4
+rect 23 1 28 4
+rect 32 1 43 4
+rect 47 1 51 4
+rect 55 1 57 4
+<< metal2 >>
+rect 36 16 39 20
+rect 35 15 41 16
+rect 34 13 41 15
+rect 30 9 38 13
+<< ntransistor >>
+rect 9 8 11 13
+rect 15 8 17 13
+rect 47 10 49 13
+<< ptransistor >>
+rect 17 23 19 29
+rect 27 23 29 29
+rect 47 23 49 29
+<< polycontact >>
+rect 6 16 10 20
+rect 28 16 32 20
+rect 44 16 48 20
+<< ndcontact >>
+rect 3 9 7 13
+rect 19 9 23 13
+rect 42 9 46 13
+rect 51 9 55 13
+<< pdcontact >>
+rect 11 23 15 28
+rect 21 23 25 28
+rect 31 23 35 28
+rect 42 24 46 28
+rect 50 24 54 28
+<< m2contact >>
+rect 39 16 43 20
+rect 26 9 30 13
+<< psubstratepcontact >>
+rect 3 0 7 4
+rect 11 0 15 4
+rect 19 0 23 4
+rect 28 0 32 4
+rect 43 1 47 5
+rect 51 1 55 5
+<< nsubstratencontact >>
+rect 3 33 7 38
+rect 11 33 15 38
+rect 19 33 23 38
+rect 28 33 32 38
+rect 42 33 46 37
+rect 50 33 54 37
+<< labels >>
+rlabel metal1 34 35 34 35 5 V_DD
+rlabel metal1 34 2 34 2 1 gnd
+rlabel metal1 5 18 5 18 3 A
+rlabel metal1 33 18 33 18 1 B
+rlabel metal1 55 18 55 18 7 out
+rlabel ndiffusion 13 11 13 11 1 nand_mid_1
+rlabel metal2 33 11 33 11 1 nandtoinv
+<< end >>

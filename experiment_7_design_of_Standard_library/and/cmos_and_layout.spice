@@ -1,0 +1,36 @@
+* SPICE3 file created from cmos_and_layout.ext - technology: scmos
+
+.model pfet pmos level=3 version=3.3.0
+.model nfet nmos level=3 version=3.3.0
+
+.option scale=1u
+
+M1000 nand_mid_1 A gnd Gnd nfet w=5 l=2
++  ad=20 pd=18 as=47 ps=40
+M1001 out nandtoinv gnd Gnd nfet w=3 l=2
++  ad=22 pd=20 as=0 ps=0
+M1002 out nandtoinv V_DD V_DD pfet w=6 l=2
++  ad=26 pd=22 as=94 ps=70
+M1003 nandtoinv A V_DD V_DD pfet w=6 l=2
++  ad=48 pd=28 as=0 ps=0
+M1004 nandtoinv B nand_mid_1 Gnd nfet w=5 l=2
++  ad=28 pd=22 as=0 ps=0
+M1005 V_DD B nandtoinv V_DD pfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 V_DD A 2.07fF
+C1 gnd Gnd 6.06fF
+C2 nandtoinv Gnd 8.41fF
+C3 B Gnd 7.42fF
+C4 A Gnd 5.26fF
+
+V_A A gnd pulse(0 5 0.1n 0.1n 0.1n 4n 8n)
+V_B B gnd pulse(0 5 0.1n 0.1n 0.1n 2n 4n)
+v_dd V_DD gnd 5
+
+.control
+	tran 0.1n 16n
+	setplot tran1
+	plot A B out
+.endc
+
+.end

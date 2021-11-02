@@ -1,0 +1,26 @@
+timestamp 1635829968
+version 8.2
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "gnd" 1355 6345 13 6 ppc 57 54 80 80 0 0 0 0 0 0 0 0 263 164 0 0 0 0
+node "out" 186 1551 49 15 ndiff 22 20 26 22 0 0 0 0 0 0 0 0 74 54 0 0 0 0
+node "pun_mid_node" 179 0 17 28 pdiff 0 0 12 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "nortonand" 444 6009 21 15 ndiff 28 24 34 24 58 56 0 0 0 0 0 0 132 82 77 50 0 0
+node "B" 393 5670 19 24 p 0 0 0 0 78 76 0 0 0 0 0 0 22 20 0 0 0 0
+node "A" 321 4802 12 22 pc 0 0 0 0 66 64 0 0 0 0 0 0 22 20 0 0 0 0
+node "V_DD" 8686 0 8 26 nw 96 96 57 46 0 0 0 0 0 0 0 0 271 148 0 0 784 130
+cap "V_DD" "B" 2232
+cap "V_DD" "A" 1672
+cap "nortonand" "B" 240
+cap "out" "V_DD" 376
+cap "nortonand" "V_DD" 3658
+device mosfet nfet 47 15 48 16 2 3 "Gnd!" "nortonand" 4 0 "gnd" 3 0 "out" 3 0
+device mosfet nfet 29 15 30 16 2 3 "Gnd!" "B" 4 0 "nortonand" 3 0 "gnd" 3 0
+device mosfet nfet 19 15 20 16 2 3 "Gnd!" "A" 4 0 "gnd" 3 0 "nortonand" 3 0
+device mosfet pfet 47 28 48 29 2 6 "V_DD" "nortonand" 4 0 "V_DD" 6 0 "out" 6 0
+device mosfet pfet 19 28 20 29 2 6 "V_DD" "B" 4 0 "pun_mid_node" 6 0 "nortonand" 6 0
+device mosfet pfet 15 28 16 29 2 6 "V_DD" "A" 4 0 "V_DD" 6 0 "pun_mid_node" 6 0
+subcap "out" -141
+subcap "A" -141

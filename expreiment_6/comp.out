@@ -1,0 +1,72 @@
+
+Subcircuit summary:
+Circuit 1: cmos_inv.cir                    |Circuit 2: cmos_inv_layout.spice           
+-------------------------------------------|-------------------------------------------
+cmosn (1)                                  |(no matching element)                      
+cmosp (1)                                  |(no matching element)                      
+vsrc (2)                                   |vsrc (2)                                   
+(no matching element)                      |nfet (1)                                   
+(no matching element)                      |pfet (1)                                   
+(no matching element)                      |c (1)                                      
+Number of devices: 4 **Mismatch**          |Number of devices: 5 **Mismatch**          
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: cmos_inv.cir                    |Circuit 2: cmos_inv_layout.spice           
+
+---------------------------------------------------------------------------------------
+Net: in                                    |Net: V_DD                                  
+  cmosn/gate = 1                           |  pfet/(drain|source) = 1                  
+  cmosp/gate = 1                           |  pfet/bulk = 1                            
+  vsrc/pos = 1                             |  vsrc/pos = 1                             
+                                           |                                           
+Net: vdd                                   |Net: gnd                                   
+  cmosp/(drain|source) = 1                 |  nfet/(drain|source) = 1                  
+  cmosp/bulk = 1                           |  nfet/bulk = 1                            
+  vsrc/pos = 1                             |  c/bottom = 1                             
+                                           |  vsrc/neg = 2                             
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: 0                                     |Net: in                                    
+  cmosn/(drain|source) = 1                 |  nfet/gate = 1                            
+  cmosn/bulk = 1                           |  pfet/gate = 1                            
+  vsrc/neg = 2                             |  c/top = 1                                
+                                           |  vsrc/pos = 1                             
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: out                                   |Net: out                                   
+  cmosn/(drain|source) = 1                 |  nfet/(drain|source) = 1                  
+  cmosp/(drain|source) = 1                 |  pfet/(drain|source) = 1                  
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: cmos_inv.cir                    |Circuit 2: cmos_inv_layout.spice           
+
+---------------------------------------------------------------------------------------
+Instance: cmosn1                           |Instance: nfet1000                         
+  (drain,source) = (4,2)                   |  (drain,source) = (5,2)                   
+  gate = 3                                 |  gate = 4                                 
+  bulk = 4                                 |  bulk = 5                                 
+                                           |                                           
+Instance: cmosp2                           |Instance: pfet1001                         
+  (drain,source) = (3,2)                   |  (drain,source) = (3,2)                   
+  gate = 3                                 |  gate = 4                                 
+  bulk = 3                                 |  bulk = 3                                 
+                                           |                                           
+(no matching instance)                     |Instance: c0                               
+                                           |  top = 4                                  
+                                           |  bottom = 5                               
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: c0                               
+                                           |  pos = 4                                  
+                                           |  neg = 5                                  
+                                           |                                           
+(no matching instance)                     |Instance: c0                               
+                                           |  pos = 3                                  
+                                           |  neg = 5                                  
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Netlists do not match.
