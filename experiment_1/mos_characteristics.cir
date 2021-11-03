@@ -1,0 +1,28 @@
+*hkgho
+
+.MODEL cmosn NMOS (                                 LEVEL  = 1                  
++ TOX    = 5.7E-9          NSUB   = 1E17            GAMMA  = 0.4317311          
++ PHI    = 0.7             VTO    = 0.4238252       DELTA  = 0                  
++ UO     = 425.6466519     ETA    = 0               THETA  = 0.1754054          
++ KP     = 2.501048E-4     VMAX   = 8.287851E4      KAPPA  = 0.1686779          
++ RSH    = 4.062439E-3     NFS    = 1E12            TPG    = 1                  
++ XJ     = 3E-7            LD     = 3.162278E-11    WD     = 1.232881E-8        
++ CGDO   = 6.2E-10         CGSO   = 6.2E-10         CGBO   = 1E-10              
++ CJ     = 1.81211E-3      PB     = 0.5             MJ     = 0.3282553          
++ CJSW   = 5.341337E-10    MJSW   = 0.5  
++ LAMBDA = 0.05     )   
+
+
+m out in Vss 0 cmosn l=1u w=1u
+Vgnd Vss 0 0
+Vdd out 0 5
+Vin in 0 5
+.dc Vin 0 5 0.1
+.control
+foreach res 0.5 1 2
+altermod m VTO=$res
+run
+end
+plot dc1.Vdd#branch*-1 dc2.Vdd#branch*-1 dc3.Vdd#branch*-1
+.endc
+.end
