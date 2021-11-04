@@ -1,0 +1,47 @@
+| units: 100 tech: scmos format: MIT
+p B -B vdd 2 28 -11 -61
+p A vdd -A 2 28 -21 61
+n and_a_b_node vss LT_1bit 2 14 35 35
+n A vss -A 2 20 -21 29
+n A -A vss 2 9 -11 40
+n and_a_b_node2 vss GT_1bit 2 14 33 -21
+p and_a_b_node2 vdd GT_1bit 2 28 33 -61
+p A -A vdd 2 28 -31 61
+p B vdd -B 2 20 -41 -53
+p A and_a_b_node2 vdd 2 19 23 -61
+n A -A vss 2 20 -31 29
+n -B and_a_b_node2 a_15_n21# 2 13 13 -21
+n A a_15_n21# vss 2 13 20 -21
+p -A vdd and_a_b_node 2 19 15 70
+n B vss -B 2 20 -41 -21
+p -B vdd and_a_b_node2 2 19 13 -61
+n -A and_a_b_node a_17_36# 2 13 15 36
+p A vdd -A 2 20 -41 61
+n LT_1bit fout_1bit vss 2 8 70 35
+n B -B vss 2 20 -31 -21
+n B a_17_36# vss 2 13 22 36
+n GT_1bit vss fout_1bit 2 8 59 38
+n A vss -A 2 20 -41 29
+p B -B vdd 2 28 -31 -61
+p A -A vdd 2 28 -11 61
+n B vss -B 2 20 -21 -21
+p B and_a_b_node vdd 2 19 25 70
+p GT_1bit vdd a_63_61# 2 28 61 61
+p and_a_b_node vdd LT_1bit 2 28 35 61
+p LT_1bit a_63_61# fout_1bit 2 28 68 61
+n B -B vss 2 9 -11 -21
+p B vdd -B 2 28 -21 -61
+R a_15_n21# 17
+R and_a_b_node2 255
+R -B 351
+R a_17_36# 17
+R fout_1bit 56
+R a_63_61# 41
+R LT_1bit 272
+R GT_1bit 259
+R and_a_b_node 255
+R B 1160
+R -A 351
+R A 1159
+R vss 12791
+R vdd 10381

@@ -1,0 +1,82 @@
+* SPICE3 file created from project.ext - technology: scmos
+
+.model pmos pmos level=3
+.model nmos nmos level=3
+.option scale=0.055u
+
+M1000 vdd B -B vdd pmos w=28 l=2
++  ad=2050 pd=714 as=424 ps=144
+M1001 -A A vdd vdd pmos w=28 l=2
++  ad=424 pd=144 as=0 ps=0
+M1002 LT_1bit and_a_b_node vss vss nmos w=14 l=2
++  ad=98 pd=42 as=1370 ps=504
+M1003 -A A vss vss nmos w=20 l=2
++  ad=287 pd=112 as=0 ps=0
+M1004 vss A -A vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 GT_1bit and_a_b_node2 vss vss nmos w=14 l=2
++  ad=98 pd=42 as=0 ps=0
+M1006 GT_1bit and_a_b_node2 vdd vdd pmos w=28 l=2
++  ad=166 pd=70 as=0 ps=0
+M1007 vdd A -A vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 -B B vdd vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1009 vdd A and_a_b_node2 vdd pmos w=19 l=2
++  ad=0 pd=0 as=152 ps=54
+M1010 vss A -A vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 a_15_n21# -B and_a_b_node2 vss nmos w=13 l=2
++  ad=65 pd=36 as=77 ps=40
+M1012 vss A a_15_n21# vss nmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 and_a_b_node -A vdd vdd pmos w=19 l=2
++  ad=152 pd=54 as=0 ps=0
+M1014 -B B vss vss nmos w=20 l=2
++  ad=287 pd=112 as=0 ps=0
+M1015 and_a_b_node2 -B vdd vdd pmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 a_17_36# -A and_a_b_node vss nmos w=13 l=2
++  ad=65 pd=36 as=77 ps=40
+M1017 -A A vdd vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 vss LT_1bit fout_1bit vss nmos w=8 l=2
++  ad=0 pd=0 as=81 ps=40
+M1019 vss B -B vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 vss B a_17_36# vss nmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 fout_1bit GT_1bit vss vss nmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 -A A vss vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 vdd B -B vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 vdd A -A vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1025 -B B vss vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 vdd B and_a_b_node vdd pmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1027 a_63_61# GT_1bit vdd vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1028 LT_1bit and_a_b_node vdd vdd pmos w=28 l=2
++  ad=166 pd=70 as=0 ps=0
+M1029 fout_1bit LT_1bit a_63_61# vdd pmos w=28 l=2
++  ad=166 pd=70 as=0 ps=0
+M1030 vss B -B vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 -B B vdd vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+
+V_DD vdd vss 5
+V_A A vss pulse(0 5 0.1n 0.1n 0.1n 2n 4n )
+V_B B vss pulse(0 5 0.1n 0.1n 0.1n 4n 8n)
+
+.control
+tran 1n 16n
+run
+setplot tran1
+plot A B fout_1bit+10 LT_1bit+20 GT_1bit+30
+.endc
+.end

@@ -1,0 +1,102 @@
+timestamp 1635954421
+version 8.2
+tech scmos
+style pharosc200-55nm
+scale 1 1 5.5
+resistclasses 6700 7320 4090 4090 1207000 1207000 7360 87 57 57 57 57 20
+node "a_15_n21#" 17420 0 15 -21 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "and_a_b_node2" 255071 54.0338 6 -14 ndif 77 40 152 54 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "-B" 350754 91.1751 -39 -53 pdif 287 112 424 144 0 0 0 0 0 0 0 0 148 136 539 262 0 0 0 0 0 0 0 0 0 0
+equiv "-B" "-B"
+node "a_17_36#" 17420 0 17 36 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "fout_1bit" 56224 34.9675 61 38 ndif 81 40 166 70 0 0 0 0 0 0 0 0 0 0 282 134 0 0 0 0 0 0 0 0 0 0
+node "a_63_61#" 40992 0 63 61 pdif 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "LT_1bit" 271767 87.2837 37 35 ndif 98 42 166 70 0 0 0 0 0 0 0 0 150 138 413 192 0 0 0 0 0 0 0 0 0 0
+node "GT_1bit" 258729 110.89 35 -61 pdif 98 42 166 70 0 0 0 0 0 0 0 0 142 130 333 170 52 42 52 42 531 198 0 0 0 0
+node "and_a_b_node" 255071 54.0338 8 36 ndif 77 40 152 54 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "B" 1159559 269.794 -41 -57 p 0 0 0 0 0 0 0 0 0 0 0 0 744 688 237 130 36 34 775 338 0 0 0 0 0 0
+equiv "B" "B"
+node "-A" 350797 93.2227 -39 29 ndif 287 112 424 144 0 0 0 0 0 0 0 0 148 136 547 266 0 0 0 0 0 0 0 0 0 0
+equiv "-A" "-A"
+node "A" 1159190 327.285 -41 25 p 0 0 0 0 0 0 0 0 0 0 0 0 744 688 348 178 827 308 0 0 0 0 0 0 0 0
+equiv "A" "A"
+node "vss" 12790656 368.322 -61 -27 pw 1370 504 0 0 0 0 108 72 0 0 8096 634 0 0 2168 532 0 0 0 0 0 0 0 0 0 0
+node "vdd" 10380527 572.401 -61 -72 nw 0 0 2050 714 72 48 0 0 11385 686 0 0 0 0 3376 860 0 0 0 0 0 0 0 0 0 0
+node "ab_4_n67#" 0 0 4 -67 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n56_n67#" 0 0 -56 -67 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_50_23#" 0 0 50 23 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_6_23#" 0 0 6 23 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n56_23#" 0 0 -56 23 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_15_n21#" "A" 7.2101
+cap "vss" "-A" 111.756
+cap "fout_1bit" "vdd" 20.177
+cap "and_a_b_node" "a_17_36#" 9.278
+cap "vss" "and_a_b_node2" 86.7581
+cap "-A" "and_a_b_node" 39.0487
+cap "vss" "and_a_b_node" 79.8523
+cap "vdd" "a_63_61#" 4.639
+cap "vdd" "B" 55.2977
+cap "vss" "LT_1bit" 63.326
+cap "vdd" "-B" 91.9472
+cap "A" "vdd" 70.8357
+cap "and_a_b_node2" "a_15_n21#" 9.278
+cap "vss" "GT_1bit" 63.8545
+cap "and_a_b_node" "LT_1bit" 146.551
+cap "B" "-B" 186.702
+cap "and_a_b_node2" "GT_1bit" 146.551
+cap "A" "B" 14.2734
+cap "vss" "fout_1bit" 80.7691
+cap "-A" "vdd" 91.9472
+cap "B" "a_17_36#" 10.4727
+cap "A" "-B" 189.296
+cap "GT_1bit" "LT_1bit" 172.231
+cap "vss" "vdd" 66.0365
+cap "-A" "B" 134.166
+cap "and_a_b_node2" "vdd" 105.789
+cap "vss" "B" 51.9896
+cap "fout_1bit" "LT_1bit" 55.8311
+cap "vdd" "and_a_b_node" 105.789
+cap "A" "-A" 186.702
+cap "GT_1bit" "fout_1bit" 7.6743
+cap "vss" "-B" 111.756
+cap "vss" "A" 110.149
+cap "vdd" "LT_1bit" 72.1936
+cap "B" "and_a_b_node" 160.071
+cap "GT_1bit" "vdd" 41.5374
+cap "and_a_b_node2" "-B" 39.0487
+cap "and_a_b_node2" "A" 157.754
+cap "a_63_61#" "LT_1bit" 6.4395
+device mosfet pmos 33 -61 34 -60 2 28 "vdd" "and_a_b_node2" 4 0 "vdd" 28 0 "GT_1bit" 28 0
+device mosfet pmos 23 -61 24 -60 2 19 "vdd" "A" 4 0 "and_a_b_node2" 19 0 "vdd" 19 0
+device mosfet pmos 13 -61 14 -60 2 19 "vdd" "-B" 4 0 "vdd" 19 0 "and_a_b_node2" 19 0
+device mosfet pmos -11 -61 -10 -60 2 28 "vdd" "B" 4 0 "-B" 28 0 "vdd" 28 0
+device mosfet pmos -21 -61 -20 -60 2 28 "vdd" "B" 4 0 "vdd" 28 0 "-B" 28 0
+device mosfet pmos -31 -61 -30 -60 2 28 "vdd" "B" 4 0 "-B" 28 0 "vdd" 28 0
+device mosfet pmos -41 -53 -40 -52 2 20 "vdd" "B" 4 0 "vdd" 20 0 "-B" 20 0
+device mosfet nmos 33 -21 34 -20 2 14 "vss" "and_a_b_node2" 4 0 "vss" 14 0 "GT_1bit" 14 0
+device mosfet nmos 20 -21 21 -20 2 13 "vss" "A" 4 0 "a_15_n21#" 13 0 "vss" 13 0
+device mosfet nmos 13 -21 14 -20 2 13 "vss" "-B" 4 0 "and_a_b_node2" 13 0 "a_15_n21#" 13 0
+device mosfet nmos -11 -21 -10 -20 2 9 "vss" "B" 4 0 "-B" 9 0 "vss" 9 0
+device mosfet nmos -21 -21 -20 -20 2 20 "vss" "B" 4 0 "vss" 20 0 "-B" 20 0
+device mosfet nmos -31 -21 -30 -20 2 20 "vss" "B" 4 0 "-B" 20 0 "vss" 20 0
+device mosfet nmos -41 -21 -40 -20 2 20 "vss" "B" 4 0 "vss" 20 0 "-B" 20 0
+device mosfet nmos 70 35 71 36 2 8 "vss" "LT_1bit" 4 0 "fout_1bit" 8 0 "vss" 8 0
+device mosfet nmos 59 38 60 39 2 8 "vss" "GT_1bit" 4 0 "vss" 8 0 "fout_1bit" 8 0
+device mosfet nmos 35 35 36 36 2 14 "vss" "and_a_b_node" 4 0 "vss" 14 0 "LT_1bit" 14 0
+device mosfet nmos 22 36 23 37 2 13 "vss" "B" 4 0 "a_17_36#" 13 0 "vss" 13 0
+device mosfet nmos 15 36 16 37 2 13 "vss" "-A" 4 0 "and_a_b_node" 13 0 "a_17_36#" 13 0
+device mosfet nmos -11 40 -10 41 2 9 "vss" "A" 4 0 "-A" 9 0 "vss" 9 0
+device mosfet nmos -21 29 -20 30 2 20 "vss" "A" 4 0 "vss" 20 0 "-A" 20 0
+device mosfet nmos -31 29 -30 30 2 20 "vss" "A" 4 0 "-A" 20 0 "vss" 20 0
+device mosfet nmos -41 29 -40 30 2 20 "vss" "A" 4 0 "vss" 20 0 "-A" 20 0
+device mosfet pmos 68 61 69 62 2 28 "vdd" "LT_1bit" 4 0 "a_63_61#" 28 0 "fout_1bit" 28 0
+device mosfet pmos 61 61 62 62 2 28 "vdd" "GT_1bit" 4 0 "vdd" 28 0 "a_63_61#" 28 0
+device mosfet pmos 35 61 36 62 2 28 "vdd" "and_a_b_node" 4 0 "vdd" 28 0 "LT_1bit" 28 0
+device mosfet pmos 25 70 26 71 2 19 "vdd" "B" 4 0 "and_a_b_node" 19 0 "vdd" 19 0
+device mosfet pmos 15 70 16 71 2 19 "vdd" "-A" 4 0 "vdd" 19 0 "and_a_b_node" 19 0
+device mosfet pmos -11 61 -10 62 2 28 "vdd" "A" 4 0 "-A" 28 0 "vdd" 28 0
+device mosfet pmos -21 61 -20 62 2 28 "vdd" "A" 4 0 "vdd" 28 0 "-A" 28 0
+device mosfet pmos -31 61 -30 62 2 28 "vdd" "A" 4 0 "-A" 28 0 "vdd" 28 0
+device mosfet pmos -41 61 -40 62 2 20 "vdd" "A" 4 0 "vdd" 20 0 "-A" 20 0
+subcap "and_a_b_node2" -51.8474
+subcap "A" -323.337
