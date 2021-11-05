@@ -1,0 +1,192 @@
+* SPICE3 file created from 2bit-comparator.ext - technology: scmos
+
+.option scale=0.055u
+
+M1000 vdd 2bit_greater a_215_198# vdd pmos w=27 l=2
++  ad=5814 pd=1980 as=135 ps=64
+M1001 vss a_142_98# Gt_A1_B1 vss nmos w=14 l=2
++  ad=3710 pd=1384 as=98 ps=42
+M1002 vss a_n2_194# 2bit_less vss nmos w=14 l=2
++  ad=0 pd=0 as=98 ps=42
+M1003 a_107_198# Gt_a0_b0 vdd vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1004 a_92_194# GT_a_B_cas1 a_107_198# vdd pmos w=28 l=2
++  ad=152 pd=70 as=0 ps=0
+M1005 neg_A1 A1 vss vss nmos w=20 l=2
++  ad=287 pd=112 as=0 ps=0
+M1006 neg_A0 A0 vdd vdd pmos w=28 l=2
++  ad=424 pd=144 as=0 ps=0
+M1007 neg_B1 B1 vdd vdd pmos w=28 l=2
++  ad=424 pd=144 as=0 ps=0
+M1008 vss B0 neg_B0 vss nmos w=20 l=2
++  ad=0 pd=0 as=287 ps=112
+M1009 vdd B0 neg_B0 vdd pmos w=28 l=2
++  ad=0 pd=0 as=424 ps=144
+M1010 a_55_54# neg_B0 vdd vdd pmos w=19 l=2
++  ad=152 pd=54 as=0 ps=0
+M1011 a_140_3# B1 vdd vdd pmos w=19 l=2
++  ad=152 pd=54 as=0 ps=0
+M1012 vss a_42_194# 2bit_less_case1 vss nmos w=14 l=2
++  ad=0 pd=0 as=98 ps=42
+M1013 a_13_198# Lt_a0_b0 vdd vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1014 a_n2_194# 2bit_less_case1 a_13_198# vdd pmos w=28 l=2
++  ad=152 pd=70 as=0 ps=0
+M1015 Lt_a0_b0 a_57_104# vdd vdd pmos w=28 l=2
++  ad=166 pd=70 as=0 ps=0
+M1016 a_198_198# 2bit_greater vdd vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1017 2bit_equal 2bit_less a_198_198# vdd pmos w=27 l=2
++  ad=216 pd=70 as=0 ps=0
+M1018 vss B1 neg_B1 vss nmos w=20 l=2
++  ad=0 pd=0 as=287 ps=112
+M1019 a_64_47# neg_B0 a_55_54# vss nmos w=13 l=2
++  ad=65 pd=36 as=77 ps=40
+M1020 neg_A0 A0 vss vss nmos w=20 l=2
++  ad=287 pd=112 as=0 ps=0
+M1021 vdd A0 neg_A0 vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 vdd B1 neg_B1 vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 vss GT_a_B_cas1 a_92_194# vss nmos w=8 l=2
++  ad=0 pd=0 as=68 ps=36
+M1024 vss A0 a_64_47# vss nmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1025 vdd Gt_A1_B1 a_109_7# vdd pmos w=28 l=2
++  ad=0 pd=0 as=140 ps=66
+M1026 vss 2bit_less_case1 a_n2_194# vss nmos w=8 l=2
++  ad=0 pd=0 as=68 ps=36
+M1027 vdd a_92_194# 2bit_greater vdd pmos w=28 l=2
++  ad=0 pd=0 as=166 ps=70
+M1028 neg_A0 A0 vdd vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1029 vss A1 neg_A1 vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 neg_B1 B1 vdd vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 vss A0 neg_A0 vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 Equal_a0_b0 Gt_a0_b0 vss vss nmos w=8 l=2
++  ad=81 pd=40 as=0 ps=0
+M1033 neg_B0 B0 vss vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 vdd a_140_3# Lt_A1_B1 vdd pmos w=28 l=2
++  ad=0 pd=0 as=166 ps=70
+M1035 neg_A1 A1 vdd vdd pmos w=28 l=2
++  ad=424 pd=144 as=0 ps=0
+M1036 GT_a_B_cas1 a_135_245# vdd vdd pmos w=28 l=2
++  ad=166 pd=70 as=0 ps=0
+M1037 Lt_a0_b0 a_57_104# vss vss nmos w=14 l=2
++  ad=98 pd=42 as=0 ps=0
+M1038 vss a_92_194# 2bit_greater vss nmos w=14 l=2
++  ad=0 pd=0 as=98 ps=42
+M1039 a_92_194# Gt_a0_b0 vss vss nmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 vss Lt_a0_b0 Equal_a0_b0 vss nmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 a_155_47# B1 vss vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1042 vss A0 neg_A0 vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1043 neg_B1 B1 vss vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 vdd A1 neg_A1 vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 a_n2_194# Lt_a0_b0 vss vss nmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 GT_a_B_cas1 a_135_245# vss vss nmos w=14 l=2
++  ad=98 pd=42 as=0 ps=0
+M1047 vdd B0 a_57_104# vdd pmos w=19 l=2
++  ad=0 pd=0 as=152 ps=54
+M1048 neg_A1 A1 vss vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1049 vdd Gt_A1_B1 a_135_245# vdd pmos w=19 l=2
++  ad=0 pd=0 as=152 ps=54
+M1050 vdd B0 neg_B0 vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1051 vss Gt_A1_B1 Equal_A1_B1 vss nmos w=8 l=2
++  ad=0 pd=0 as=81 ps=40
+M1052 a_140_3# neg_A1 a_155_47# vss nmos w=13 l=2
++  ad=77 pd=40 as=0 ps=0
+M1053 Gt_a0_b0 a_55_54# vdd vdd pmos w=28 l=2
++  ad=166 pd=70 as=0 ps=0
+M1054 a_112_129# Gt_a0_b0 vdd vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1055 Equal_a0_b0 Lt_a0_b0 a_112_129# vdd pmos w=28 l=2
++  ad=166 pd=70 as=0 ps=0
+M1056 a_135_245# Equal_a0_b0 vdd vdd pmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1057 a_57_104# neg_A0 vdd vdd pmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1058 vss B0 neg_B0 vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1059 Equal_A1_B1 Lt_A1_B1 vss vss nmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 vdd A1 neg_A1 vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1061 vss 2bit_greater 2bit_equal vss nmos w=15 l=2
++  ad=0 pd=0 as=120 ps=46
+M1062 vdd neg_B1 a_142_98# vdd pmos w=19 l=2
++  ad=0 pd=0 as=152 ps=54
+M1063 a_66_104# neg_A0 a_57_104# vss nmos w=13 l=2
++  ad=65 pd=36 as=77 ps=40
+M1064 vss B0 a_66_104# vss nmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1065 Gt_a0_b0 a_55_54# vss vss nmos w=14 l=2
++  ad=98 pd=42 as=0 ps=0
+M1066 vdd Equal_a0_b0 a_42_194# vdd pmos w=19 l=2
++  ad=0 pd=0 as=152 ps=54
+M1067 vdd a_142_98# Gt_A1_B1 vdd pmos w=28 l=2
++  ad=0 pd=0 as=166 ps=70
+M1068 neg_A0 A0 vss vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1069 vss B1 neg_B1 vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 a_144_238# Equal_a0_b0 a_135_245# vss nmos w=13 l=2
++  ad=65 pd=36 as=77 ps=40
+M1071 vss Gt_A1_B1 a_144_238# vss nmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1072 a_157_104# A1 vss vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1073 a_142_98# neg_B1 a_157_104# vss nmos w=13 l=2
++  ad=77 pd=40 as=0 ps=0
+M1074 neg_B1 B1 vss vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1075 neg_B0 B0 vss vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1076 vss A1 neg_A1 vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1077 2bit_equal 2bit_less vss vss nmos w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 neg_B0 B0 vdd vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1079 vdd A0 a_55_54# vdd pmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 a_57_238# Lt_A1_B1 vss vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1081 a_42_194# Equal_a0_b0 a_57_238# vss nmos w=13 l=2
++  ad=77 pd=40 as=0 ps=0
+M1082 vdd neg_A1 a_140_3# vdd pmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1083 a_42_194# Lt_A1_B1 vdd vdd pmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1084 a_142_98# A1 vdd vdd pmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1085 a_109_7# Lt_A1_B1 Equal_A1_B1 vdd pmos w=28 l=2
++  ad=0 pd=0 as=166 ps=70
+M1086 neg_B0 B0 vdd vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1087 vdd a_n2_194# 2bit_less vdd pmos w=28 l=2
++  ad=0 pd=0 as=166 ps=70
+M1088 vdd A0 neg_A0 vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1089 neg_A1 A1 vdd vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 vdd B1 neg_B1 vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1091 vss a_140_3# Lt_A1_B1 vss nmos w=14 l=2
++  ad=0 pd=0 as=98 ps=42
+M1092 vdd a_42_194# 2bit_less_case1 vdd pmos w=28 l=2
++  ad=0 pd=0 as=166 ps=70
+M1093 a_215_198# 2bit_less 2bit_equal vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0

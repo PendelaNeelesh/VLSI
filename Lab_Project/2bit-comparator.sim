@@ -1,0 +1,137 @@
+| units: 100 tech: scmos format: MIT
+p 2bit_greater a_215_198# vdd 2 27 220 198
+n a_142_98# Gt_A1_B1 vss 2 14 142 103
+n a_n2_194# 2bit_less vss 2 14 -2 238
+p Gt_a0_b0 vdd a_107_198# 2 28 105 198
+p GT_a_B_cas1 a_107_198# a_92_194# 2 28 112 198
+n A1 vss neg_A1 2 20 206 47
+p A0 vdd neg_A0 2 28 28 129
+p B1 vdd neg_B1 2 28 206 129
+n B0 neg_B0 vss 2 20 18 47
+p B0 neg_B0 vdd 2 28 18 7
+p neg_B0 vdd a_55_54# 2 19 62 7
+p B1 vdd a_140_3# 2 19 150 7
+n a_42_194# 2bit_less_case1 vss 2 14 42 238
+p Lt_a0_b0 vdd a_13_198# 2 28 11 198
+p 2bit_less_case1 a_13_198# a_n2_194# 2 28 18 198
+p a_57_104# vdd Lt_a0_b0 2 28 84 129
+p 2bit_greater vdd a_198_198# 2 27 196 198
+p 2bit_less a_198_198# 2bit_equal 2 27 203 198
+n B1 neg_B1 vss 2 20 196 97
+n neg_B0 a_55_54# a_64_47# 2 13 62 47
+n A0 vss neg_A0 2 20 8 97
+p A0 neg_A0 vdd 2 28 18 129
+p B1 neg_B1 vdd 2 28 196 129
+n GT_a_B_cas1 a_92_194# vss 2 8 112 241
+n A0 a_64_47# vss 2 13 69 47
+p Gt_A1_B1 a_109_7# vdd 2 28 114 7
+n 2bit_less_case1 a_n2_194# vss 2 8 18 241
+p a_92_194# 2bit_greater vdd 2 28 92 198
+p A0 vdd neg_A0 2 20 8 129
+n A1 neg_A1 vss 2 20 216 47
+p B1 vdd neg_B1 2 28 186 129
+n A0 neg_A0 vss 2 9 38 108
+n Gt_a0_b0 vss Equal_a0_b0 2 8 108 106
+n B0 vss neg_B0 2 20 28 47
+p a_140_3# Lt_A1_B1 vdd 2 28 140 7
+p A1 vdd neg_A1 2 28 206 7
+p a_135_245# vdd GT_a_B_cas1 2 28 162 198
+n a_57_104# vss Lt_a0_b0 2 14 84 103
+n a_92_194# 2bit_greater vss 2 14 92 238
+n Gt_a0_b0 vss a_92_194# 2 8 102 243
+n Lt_a0_b0 Equal_a0_b0 vss 2 8 119 103
+n B1 vss a_155_47# 2 13 153 47
+n A0 neg_A0 vss 2 20 18 97
+n B1 vss neg_B1 2 20 206 97
+p A1 neg_A1 vdd 2 20 216 15
+n Lt_a0_b0 vss a_n2_194# 2 8 8 243
+n a_135_245# vss GT_a_B_cas1 2 14 162 238
+p B0 a_57_104# vdd 2 19 74 138
+n A1 vss neg_A1 2 9 186 47
+p Gt_A1_B1 a_135_245# vdd 2 19 152 198
+p B0 neg_B0 vdd 2 28 38 7
+n Gt_A1_B1 Equal_A1_B1 vss 2 8 116 50
+n neg_A1 a_155_47# a_140_3# 2 13 160 47
+p a_55_54# vdd Gt_a0_b0 2 28 82 7
+p Gt_a0_b0 vdd a_112_129# 2 28 110 129
+p Lt_a0_b0 a_112_129# Equal_a0_b0 2 28 117 129
+p Equal_a0_b0 vdd a_135_245# 2 19 142 198
+p neg_A0 vdd a_57_104# 2 19 64 138
+n B0 neg_B0 vss 2 9 38 47
+n Lt_A1_B1 vss Equal_A1_B1 2 8 105 53
+p A1 neg_A1 vdd 2 28 196 7
+n 2bit_greater 2bit_equal vss 2 15 218 243
+p neg_B1 a_142_98# vdd 2 19 162 138
+n neg_A0 a_57_104# a_66_104# 2 13 64 104
+n B0 a_66_104# vss 2 13 71 104
+n a_55_54# vss Gt_a0_b0 2 14 82 47
+p Equal_a0_b0 a_42_194# vdd 2 19 62 198
+p a_142_98# Gt_A1_B1 vdd 2 28 142 129
+n A0 vss neg_A0 2 20 28 97
+n B1 neg_B1 vss 2 20 216 97
+n Equal_a0_b0 a_135_245# a_144_238# 2 13 142 238
+n Gt_A1_B1 a_144_238# vss 2 13 149 238
+n A1 vss a_157_104# 2 13 155 104
+n neg_B1 a_157_104# a_142_98# 2 13 162 104
+n B1 vss neg_B1 2 9 186 108
+n B0 vss neg_B0 2 20 8 47
+n A1 neg_A1 vss 2 20 196 47
+n 2bit_less vss 2bit_equal 2 15 208 243
+p B0 vdd neg_B0 2 28 28 7
+p A0 a_55_54# vdd 2 19 72 7
+n Lt_A1_B1 vss a_57_238# 2 13 55 238
+n Equal_a0_b0 a_57_238# a_42_194# 2 13 62 238
+p neg_A1 a_140_3# vdd 2 19 160 7
+p Lt_A1_B1 vdd a_42_194# 2 19 52 198
+p A1 vdd a_142_98# 2 19 152 138
+p Lt_A1_B1 Equal_A1_B1 a_109_7# 2 28 107 7
+p B0 vdd neg_B0 2 20 8 15
+p a_n2_194# 2bit_less vdd 2 28 -2 198
+p A0 neg_A0 vdd 2 28 38 129
+p A1 vdd neg_A1 2 28 186 7
+p B1 neg_B1 vdd 2 20 216 129
+n a_140_3# Lt_A1_B1 vss 2 14 140 47
+p a_42_194# 2bit_less_case1 vdd 2 28 42 198
+p 2bit_less 2bit_equal a_215_198# 2 27 213 198
+R a_109_7# 41
+R a_155_47# 17
+R neg_A1 351
+R a_140_3# 255
+R Equal_A1_B1 56
+R a_64_47# 17
+R a_55_54# 255
+R neg_B0 351
+R a_157_104# 17
+R a_66_104# 17
+R a_112_129# 41
+R B1 1160
+R neg_B1 351
+R A1 1159
+R a_142_98# 255
+R a_57_104# 255
+R B0 1160
+R neg_A0 351
+R A0 1159
+R a_215_198# 40
+R a_198_198# 40
+R a_107_198# 41
+R 2bit_equal 39
+R a_144_238# 17
+R a_13_198# 41
+R a_135_245# 255
+R Gt_A1_B1 491
+R GT_a_B_cas1 252
+R Gt_a0_b0 491
+R 2bit_greater 480
+R a_57_238# 17
+R a_92_194# 277
+R Equal_a0_b0 504
+R Lt_A1_B1 507
+R a_42_194# 255
+R 2bit_less_case1 251
+R Lt_a0_b0 505
+R 2bit_less 427
+R a_n2_194# 277
+R vdd 18393
+R w_n16_187# 6759
+R vss 33223

@@ -1,0 +1,324 @@
+timestamp 1636124730
+version 8.2
+tech scmos
+style pharosc200-55nm
+scale 1 1 5.5
+resistclasses 6700 7320 4090 4090 1207000 1207000 7360 87 57 57 57 57 20
+node "a_109_7#" 40992 0 109 7 pdif 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_155_47#" 17420 0 155 47 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "neg_A1" 350797 93.2227 160 3 p 287 112 424 144 0 0 0 0 0 0 0 0 148 136 547 266 0 0 0 0 0 0 0 0 0 0
+node "a_140_3#" 255071 54.0338 140 3 p 77 40 152 54 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "Equal_A1_B1" 56224 34.9675 100 14 pdif 81 40 166 70 0 0 0 0 0 0 0 0 0 0 282 134 0 0 0 0 0 0 0 0 0 0
+node "a_64_47#" 17420 0 64 47 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_55_54#" 255071 54.0338 55 54 ndif 77 40 152 54 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "neg_B0" 350754 91.1751 10 15 pdif 287 112 424 144 0 0 0 0 0 0 0 0 148 136 539 262 0 0 0 0 0 0 0 0 0 0
+node "a_157_104#" 17420 0 157 104 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_66_104#" 17420 0 66 104 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_112_129#" 40992 0 112 129 pdif 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "B1" 1159559 271.711 150 3 p 0 0 0 0 0 0 0 0 0 0 0 0 744 688 237 130 36 34 775 338 0 0 0 0 0 0
+node "neg_B1" 350754 91.1751 162 99 p 287 112 424 144 0 0 0 0 0 0 0 0 148 136 539 262 0 0 0 0 0 0 0 0 0 0
+node "A1" 1159190 333.177 152 120 p 0 0 0 0 0 0 0 0 0 0 0 0 744 688 348 178 827 308 0 0 0 0 0 0 0 0
+node "a_142_98#" 255071 54.0338 142 98 p 77 40 152 54 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_57_104#" 255071 54.0338 57 104 ndif 77 40 152 54 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "B0" 1159559 269.794 8 11 p 0 0 0 0 0 0 0 0 0 0 0 0 744 688 237 130 36 34 775 338 0 0 0 0 0 0
+equiv "B0" "B0"
+node "neg_A0" 350797 93.2227 10 97 ndif 287 112 424 144 0 0 0 0 0 0 0 0 148 136 547 266 0 0 0 0 0 0 0 0 0 0
+node "A0" 1159190 327.285 8 93 p 0 0 0 0 0 0 0 0 0 0 0 0 744 688 348 178 827 308 0 0 0 0 0 0 0 0
+node "a_215_198#" 39528 0 215 198 pdif 0 0 135 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_198_198#" 39528 0 198 198 pdif 0 0 135 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_107_198#" 40992 0 107 198 pdif 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "2bit_equal" 39131 46.6285 205 198 pdif 120 46 216 70 0 0 0 0 0 0 0 0 0 0 300 148 200 90 0 0 0 0 0 0 0 0
+equiv "2bit_equal" "2bit_equal"
+node "a_144_238#" 17420 0 144 238 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_13_198#" 40992 0 13 198 pdif 0 0 140 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_135_245#" 255071 54.0338 135 245 ndif 77 40 152 54 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "Gt_A1_B1" 490617 199.181 114 3 p 98 42 166 70 0 0 0 0 0 0 0 0 290 266 434 224 639 274 36 34 531 198 0 0 0 0
+node "GT_a_B_cas1" 251545 105.808 112 194 p 98 42 166 70 0 0 0 0 0 0 0 0 160 136 381 186 383 146 0 0 0 0 0 0 0 0
+node "Gt_a0_b0" 491355 177.015 84 7 pdif 98 42 166 70 0 0 0 0 0 0 0 0 290 266 437 222 68 58 68 58 987 422 0 0 0 0
+node "2bit_greater" 479831 293.893 85 204 pdif 98 42 166 70 0 0 0 0 0 0 0 0 288 262 414 206 1474 540 0 0 0 0 0 0 0 0
+equiv "2bit_greater" "2bit_greater"
+node "a_57_238#" 17420 0 57 238 ndif 65 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_92_194#" 277404 50.9386 92 194 p 68 36 152 70 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "Equal_a0_b0" 504043 213.985 62 194 p 81 40 166 70 0 0 0 0 0 0 0 0 296 272 458 238 774 292 0 0 0 0 0 0 0 0
+node "Lt_A1_B1" 506814 221.437 52 194 p 98 42 166 70 0 0 0 0 0 0 0 0 298 274 514 246 576 304 612 314 0 0 0 0 0 0
+node "a_42_194#" 255071 54.0338 42 194 p 77 40 152 54 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "2bit_less_case1" 250878 92.2594 18 194 p 98 42 166 70 0 0 0 0 0 0 0 0 160 136 413 194 0 0 0 0 0 0 0 0 0 0
+node "Lt_a0_b0" 505001 215.06 8 229 p 98 42 166 70 0 0 0 0 0 0 0 0 298 274 517 244 728 372 0 0 0 0 0 0 0 0
+node "2bit_less" 426954 264.401 -9 204 pdif 98 42 166 70 0 0 0 0 0 0 0 0 249 228 358 178 100 60 2385 848 0 0 0 0 0 0
+equiv "2bit_less" "2bit_less"
+node "a_n2_194#" 277404 50.9386 -2 194 p 68 36 152 70 0 0 0 0 0 0 0 0 150 138 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 18393238 1228.78 -12 6 nw 0 0 5814 1980 144 96 0 0 21430 1180 0 0 0 0 7805 1924 0 0 0 0 0 0 0 0 0 0
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+equiv "vdd" "vdd"
+node "w_n16_187#" 6759200 0 -16 187 nw 0 0 0 0 0 0 0 0 11340 594 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vss" 33223308 1376.61 -16 232 pw 3710 1384 0 0 0 0 426 250 0 0 25324 1706 0 0 7845 1910 0 0 0 0 0 0 0 0 0 0
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+equiv "vss" "vss"
+node "ab_177_1#" 0 0 177 1 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_131_1#" 0 0 131 1 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_95_1#" 0 0 95 1 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_53_1#" 0 0 53 1 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n7_1#" 0 0 -7 1 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_177_91#" 0 0 177 91 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_133_91#" 0 0 133 91 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_99_91#" 0 0 99 91 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_55_91#" 0 0 55 91 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n7_91#" 0 0 -7 91 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_183_192#" 0 0 183 192 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_133_192#" 0 0 133 192 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_83_192#" 0 0 83 192 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_33_192#" 0 0 33 192 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "ab_n11_192#" 0 0 -11 192 ab 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "Lt_A1_B1" "Gt_a0_b0" 8.636
+cap "Equal_a0_b0" "2bit_greater" 13.1595
+cap "vdd" "2bit_equal" 16.3623
+cap "A0" "a_64_47#" 7.2101
+cap "vdd" "Equal_a0_b0" 137.705
+cap "Lt_a0_b0" "2bit_less_case1" 144.488
+cap "Lt_A1_B1" "a_109_7#" 6.4395
+cap "vdd" "Equal_A1_B1" 20.177
+cap "vss" "neg_A1" 111.756
+cap "a_140_3#" "neg_A1" 39.0487
+cap "vss" "neg_B1" 111.756
+cap "vdd" "a_142_98#" 105.789
+cap "A1" "neg_A1" 186.702
+cap "B0" "a_66_104#" 10.4727
+cap "A1" "neg_B1" 189.296
+cap "GT_a_B_cas1" "a_144_238#" 2.0405
+cap "Equal_a0_b0" "Gt_a0_b0" 40.1355
+cap "vdd" "a_107_198#" 4.639
+cap "a_92_194#" "2bit_greater" 173.928
+cap "vdd" "a_92_194#" 112.808
+cap "vss" "2bit_greater" 176.049
+cap "Gt_a0_b0" "Equal_A1_B1" 113.767
+cap "vss" "vdd" 81.5745
+cap "vdd" "a_140_3#" 105.789
+cap "a_140_3#" "a_155_47#" 9.278
+cap "vss" "B1" 48.1924
+cap "vdd" "A1" 55.2977
+cap "B1" "a_140_3#" 160.071
+cap "A1" "B1" 14.2734
+cap "a_57_104#" "a_66_104#" 9.278
+cap "Gt_A1_B1" "a_144_238#" 7.2101
+cap "Equal_a0_b0" "GT_a_B_cas1" 35.4194
+cap "vss" "A0" 110.149
+cap "vdd" "a_198_198#" 4.639
+cap "2bit_less" "2bit_equal" 28.6366
+cap "2bit_less_case1" "a_13_198#" 9.8598
+cap "Lt_A1_B1" "Gt_A1_B1" 253.508
+cap "a_92_194#" "Gt_a0_b0" 162.761
+cap "vss" "Gt_a0_b0" 68.1281
+cap "2bit_less_case1" "a_42_194#" 146.551
+cap "vss" "a_n2_194#" 77.5972
+cap "vdd" "neg_A1" 91.9472
+cap "Lt_a0_b0" "a_57_104#" 146.551
+cap "vdd" "neg_B1" 91.9472
+cap "neg_B0" "a_55_54#" 39.0487
+cap "B1" "neg_A1" 134.166
+cap "B0" "neg_B0" 186.702
+cap "neg_B1" "B1" 186.702
+cap "GT_a_B_cas1" "a_107_198#" 9.8598
+cap "a_135_245#" "a_144_238#" 9.278
+cap "neg_A0" "B0" 134.166
+cap "vdd" "a_215_198#" 4.639
+cap "a_92_194#" "GT_a_B_cas1" 89.4766
+cap "Equal_a0_b0" "Gt_A1_B1" 360.653
+cap "Lt_a0_b0" "Equal_a0_b0" 55.8311
+cap "vdd" "2bit_greater" 63.4348
+cap "vss" "GT_a_B_cas1" 79.3308
+cap "Gt_A1_B1" "Equal_A1_B1" 7.6743
+cap "vss" "2bit_less" 67.3321
+cap "Gt_A1_B1" "a_142_98#" 146.551
+cap "vdd" "B1" 55.2977
+cap "B1" "a_155_47#" 10.4727
+cap "a_142_98#" "a_157_104#" 9.278
+cap "neg_A0" "a_57_104#" 39.0487
+cap "vdd" "A0" 70.8357
+cap "Equal_a0_b0" "a_135_245#" 39.0487
+cap "vss" "Gt_A1_B1" 66.2545
+cap "vdd" "Gt_a0_b0" 67.7099
+cap "a_42_194#" "Lt_A1_B1" 178.686
+cap "vss" "Lt_a0_b0" 64.9298
+cap "vdd" "a_n2_194#" 112.808
+cap "vdd" "a_109_7#" 4.639
+cap "vdd" "a_112_129#" 4.639
+cap "a_55_54#" "a_64_47#" 9.278
+cap "A1" "a_157_104#" 7.2101
+cap "B0" "a_57_104#" 160.071
+cap "vdd" "GT_a_B_cas1" 41.5374
+cap "a_42_194#" "Equal_a0_b0" 39.0487
+cap "vss" "a_135_245#" 79.8523
+cap "2bit_less" "2bit_greater" 309.046
+cap "vdd" "2bit_less" 70.8572
+cap "vss" "2bit_less_case1" 69.379
+cap "vss" "neg_B0" 111.756
+cap "vss" "neg_A0" 111.756
+cap "Gt_a0_b0" "GT_a_B_cas1" 144.488
+cap "vdd" "Gt_A1_B1" 85.4222
+cap "Lt_A1_B1" "Equal_a0_b0" 209.167
+cap "a_n2_194#" "2bit_less" 173.928
+cap "vdd" "Lt_a0_b0" 129.303
+cap "vss" "a_42_194#" 79.8523
+cap "Lt_A1_B1" "Equal_A1_B1" 55.8311
+cap "vss" "a_55_54#" 86.7581
+cap "vss" "B0" 51.9896
+cap "vdd" "a_135_245#" 105.789
+cap "a_42_194#" "a_57_238#" 9.278
+cap "Lt_a0_b0" "Gt_a0_b0" 184.471
+cap "vss" "Lt_A1_B1" 99.4738
+cap "vdd" "2bit_less_case1" 41.5374
+cap "a_n2_194#" "Lt_a0_b0" 177.274
+cap "Lt_A1_B1" "a_140_3#" 146.551
+cap "vdd" "neg_B0" 91.9472
+cap "Lt_a0_b0" "a_112_129#" 6.4395
+cap "vss" "a_57_104#" 79.8523
+cap "vdd" "neg_A0" 91.9472
+cap "Equal_a0_b0" "a_107_198#" 2.5201
+cap "GT_a_B_cas1" "Gt_A1_B1" 1.57136
+cap "Equal_a0_b0" "a_92_194#" 23.2905
+cap "vdd" "a_13_198#" 4.639
+cap "Lt_A1_B1" "a_57_238#" 7.2101
+cap "vss" "2bit_equal" 123.278
+cap "A0" "neg_B0" 189.296
+cap "vss" "Equal_a0_b0" 83.9767
+cap "vdd" "a_42_194#" 105.789
+cap "a_n2_194#" "2bit_less_case1" 97.2456
+cap "A0" "neg_A0" 186.702
+cap "vss" "Equal_A1_B1" 80.7691
+cap "vdd" "a_55_54#" 105.789
+cap "vss" "a_142_98#" 86.7581
+cap "vdd" "B0" 55.2977
+cap "a_142_98#" "A1" 157.754
+cap "a_92_194#" "a_107_198#" 9.278
+cap "GT_a_B_cas1" "a_135_245#" 171.112
+cap "a_n2_194#" "a_13_198#" 9.278
+cap "A0" "a_55_54#" 157.754
+cap "vdd" "Lt_A1_B1" 99.6704
+cap "vss" "a_92_194#" 77.5972
+cap "A0" "B0" 14.2734
+cap "Gt_a0_b0" "a_55_54#" 146.551
+cap "vss" "a_140_3#" 79.8523
+cap "vss" "A1" 89.2783
+cap "vdd" "a_57_104#" 105.789
+cap "2bit_equal" "a_215_198#" 5.7005
+cap "a_142_98#" "neg_B1" 39.0487
+cap "2bit_greater" "2bit_equal" 130.467
+cap "Gt_A1_B1" "a_135_245#" 175.5
+device mosfet pmos 216 15 217 16 2 20 "vdd" "A1" 4 0 "neg_A1" 20 0 "vdd" 20 0
+device mosfet pmos 206 7 207 8 2 28 "vdd" "A1" 4 0 "vdd" 28 0 "neg_A1" 28 0
+device mosfet pmos 196 7 197 8 2 28 "vdd" "A1" 4 0 "neg_A1" 28 0 "vdd" 28 0
+device mosfet pmos 186 7 187 8 2 28 "vdd" "A1" 4 0 "vdd" 28 0 "neg_A1" 28 0
+device mosfet pmos 160 7 161 8 2 19 "vdd" "neg_A1" 4 0 "a_140_3#" 19 0 "vdd" 19 0
+device mosfet pmos 150 7 151 8 2 19 "vdd" "B1" 4 0 "vdd" 19 0 "a_140_3#" 19 0
+device mosfet pmos 140 7 141 8 2 28 "vdd" "a_140_3#" 4 0 "Lt_A1_B1" 28 0 "vdd" 28 0
+device mosfet pmos 114 7 115 8 2 28 "vdd" "Gt_A1_B1" 4 0 "a_109_7#" 28 0 "vdd" 28 0
+device mosfet pmos 107 7 108 8 2 28 "vdd" "Lt_A1_B1" 4 0 "Equal_A1_B1" 28 0 "a_109_7#" 28 0
+device mosfet pmos 82 7 83 8 2 28 "vdd" "a_55_54#" 4 0 "vdd" 28 0 "Gt_a0_b0" 28 0
+device mosfet pmos 72 7 73 8 2 19 "vdd" "A0" 4 0 "a_55_54#" 19 0 "vdd" 19 0
+device mosfet pmos 62 7 63 8 2 19 "vdd" "neg_B0" 4 0 "vdd" 19 0 "a_55_54#" 19 0
+device mosfet pmos 38 7 39 8 2 28 "vdd" "B0" 4 0 "neg_B0" 28 0 "vdd" 28 0
+device mosfet pmos 28 7 29 8 2 28 "vdd" "B0" 4 0 "vdd" 28 0 "neg_B0" 28 0
+device mosfet pmos 18 7 19 8 2 28 "vdd" "B0" 4 0 "neg_B0" 28 0 "vdd" 28 0
+device mosfet pmos 8 15 9 16 2 20 "vdd" "B0" 4 0 "vdd" 20 0 "neg_B0" 20 0
+device mosfet nmos 216 47 217 48 2 20 "vss" "A1" 4 0 "neg_A1" 20 0 "vss" 20 0
+device mosfet nmos 206 47 207 48 2 20 "vss" "A1" 4 0 "vss" 20 0 "neg_A1" 20 0
+device mosfet nmos 196 47 197 48 2 20 "vss" "A1" 4 0 "neg_A1" 20 0 "vss" 20 0
+device mosfet nmos 186 47 187 48 2 9 "vss" "A1" 4 0 "vss" 9 0 "neg_A1" 9 0
+device mosfet nmos 160 47 161 48 2 13 "vss" "neg_A1" 4 0 "a_155_47#" 13 0 "a_140_3#" 13 0
+device mosfet nmos 153 47 154 48 2 13 "vss" "B1" 4 0 "vss" 13 0 "a_155_47#" 13 0
+device mosfet nmos 140 47 141 48 2 14 "vss" "a_140_3#" 4 0 "Lt_A1_B1" 14 0 "vss" 14 0
+device mosfet nmos 116 50 117 51 2 8 "vss" "Gt_A1_B1" 4 0 "Equal_A1_B1" 8 0 "vss" 8 0
+device mosfet nmos 105 53 106 54 2 8 "vss" "Lt_A1_B1" 4 0 "vss" 8 0 "Equal_A1_B1" 8 0
+device mosfet nmos 82 47 83 48 2 14 "vss" "a_55_54#" 4 0 "vss" 14 0 "Gt_a0_b0" 14 0
+device mosfet nmos 69 47 70 48 2 13 "vss" "A0" 4 0 "a_64_47#" 13 0 "vss" 13 0
+device mosfet nmos 62 47 63 48 2 13 "vss" "neg_B0" 4 0 "a_55_54#" 13 0 "a_64_47#" 13 0
+device mosfet nmos 38 47 39 48 2 9 "vss" "B0" 4 0 "neg_B0" 9 0 "vss" 9 0
+device mosfet nmos 28 47 29 48 2 20 "vss" "B0" 4 0 "vss" 20 0 "neg_B0" 20 0
+device mosfet nmos 18 47 19 48 2 20 "vss" "B0" 4 0 "neg_B0" 20 0 "vss" 20 0
+device mosfet nmos 8 47 9 48 2 20 "vss" "B0" 4 0 "vss" 20 0 "neg_B0" 20 0
+device mosfet nmos 216 97 217 98 2 20 "vss" "B1" 4 0 "neg_B1" 20 0 "vss" 20 0
+device mosfet nmos 206 97 207 98 2 20 "vss" "B1" 4 0 "vss" 20 0 "neg_B1" 20 0
+device mosfet nmos 196 97 197 98 2 20 "vss" "B1" 4 0 "neg_B1" 20 0 "vss" 20 0
+device mosfet nmos 186 108 187 109 2 9 "vss" "B1" 4 0 "vss" 9 0 "neg_B1" 9 0
+device mosfet nmos 162 104 163 105 2 13 "vss" "neg_B1" 4 0 "a_157_104#" 13 0 "a_142_98#" 13 0
+device mosfet nmos 155 104 156 105 2 13 "vss" "A1" 4 0 "vss" 13 0 "a_157_104#" 13 0
+device mosfet nmos 142 103 143 104 2 14 "vss" "a_142_98#" 4 0 "Gt_A1_B1" 14 0 "vss" 14 0
+device mosfet nmos 119 103 120 104 2 8 "vss" "Lt_a0_b0" 4 0 "Equal_a0_b0" 8 0 "vss" 8 0
+device mosfet nmos 108 106 109 107 2 8 "vss" "Gt_a0_b0" 4 0 "vss" 8 0 "Equal_a0_b0" 8 0
+device mosfet nmos 84 103 85 104 2 14 "vss" "a_57_104#" 4 0 "vss" 14 0 "Lt_a0_b0" 14 0
+device mosfet nmos 71 104 72 105 2 13 "vss" "B0" 4 0 "a_66_104#" 13 0 "vss" 13 0
+device mosfet nmos 64 104 65 105 2 13 "vss" "neg_A0" 4 0 "a_57_104#" 13 0 "a_66_104#" 13 0
+device mosfet nmos 38 108 39 109 2 9 "vss" "A0" 4 0 "neg_A0" 9 0 "vss" 9 0
+device mosfet nmos 28 97 29 98 2 20 "vss" "A0" 4 0 "vss" 20 0 "neg_A0" 20 0
+device mosfet nmos 18 97 19 98 2 20 "vss" "A0" 4 0 "neg_A0" 20 0 "vss" 20 0
+device mosfet nmos 8 97 9 98 2 20 "vss" "A0" 4 0 "vss" 20 0 "neg_A0" 20 0
+device mosfet pmos 216 129 217 130 2 20 "vdd" "B1" 4 0 "neg_B1" 20 0 "vdd" 20 0
+device mosfet pmos 206 129 207 130 2 28 "vdd" "B1" 4 0 "vdd" 28 0 "neg_B1" 28 0
+device mosfet pmos 196 129 197 130 2 28 "vdd" "B1" 4 0 "neg_B1" 28 0 "vdd" 28 0
+device mosfet pmos 186 129 187 130 2 28 "vdd" "B1" 4 0 "vdd" 28 0 "neg_B1" 28 0
+device mosfet pmos 162 138 163 139 2 19 "vdd" "neg_B1" 4 0 "a_142_98#" 19 0 "vdd" 19 0
+device mosfet pmos 152 138 153 139 2 19 "vdd" "A1" 4 0 "vdd" 19 0 "a_142_98#" 19 0
+device mosfet pmos 142 129 143 130 2 28 "vdd" "a_142_98#" 4 0 "Gt_A1_B1" 28 0 "vdd" 28 0
+device mosfet pmos 117 129 118 130 2 28 "vdd" "Lt_a0_b0" 4 0 "a_112_129#" 28 0 "Equal_a0_b0" 28 0
+device mosfet pmos 110 129 111 130 2 28 "vdd" "Gt_a0_b0" 4 0 "vdd" 28 0 "a_112_129#" 28 0
+device mosfet pmos 84 129 85 130 2 28 "vdd" "a_57_104#" 4 0 "vdd" 28 0 "Lt_a0_b0" 28 0
+device mosfet pmos 74 138 75 139 2 19 "vdd" "B0" 4 0 "a_57_104#" 19 0 "vdd" 19 0
+device mosfet pmos 64 138 65 139 2 19 "vdd" "neg_A0" 4 0 "vdd" 19 0 "a_57_104#" 19 0
+device mosfet pmos 38 129 39 130 2 28 "vdd" "A0" 4 0 "neg_A0" 28 0 "vdd" 28 0
+device mosfet pmos 28 129 29 130 2 28 "vdd" "A0" 4 0 "vdd" 28 0 "neg_A0" 28 0
+device mosfet pmos 18 129 19 130 2 28 "vdd" "A0" 4 0 "neg_A0" 28 0 "vdd" 28 0
+device mosfet pmos 8 129 9 130 2 20 "vdd" "A0" 4 0 "vdd" 20 0 "neg_A0" 20 0
+device mosfet pmos 220 198 221 199 2 27 "vdd" "2bit_greater" 4 0 "a_215_198#" 27 0 "vdd" 27 0
+device mosfet pmos 213 198 214 199 2 27 "vdd" "2bit_less" 4 0 "2bit_equal" 27 0 "a_215_198#" 27 0
+device mosfet pmos 203 198 204 199 2 27 "vdd" "2bit_less" 4 0 "a_198_198#" 27 0 "2bit_equal" 27 0
+device mosfet pmos 196 198 197 199 2 27 "vdd" "2bit_greater" 4 0 "vdd" 27 0 "a_198_198#" 27 0
+device mosfet pmos 162 198 163 199 2 28 "vdd" "a_135_245#" 4 0 "vdd" 28 0 "GT_a_B_cas1" 28 0
+device mosfet pmos 152 198 153 199 2 19 "vdd" "Gt_A1_B1" 4 0 "a_135_245#" 19 0 "vdd" 19 0
+device mosfet pmos 142 198 143 199 2 19 "vdd" "Equal_a0_b0" 4 0 "vdd" 19 0 "a_135_245#" 19 0
+device mosfet pmos 112 198 113 199 2 28 "vdd" "GT_a_B_cas1" 4 0 "a_107_198#" 28 0 "a_92_194#" 28 0
+device mosfet pmos 105 198 106 199 2 28 "vdd" "Gt_a0_b0" 4 0 "vdd" 28 0 "a_107_198#" 28 0
+device mosfet pmos 92 198 93 199 2 28 "vdd" "a_92_194#" 4 0 "2bit_greater" 28 0 "vdd" 28 0
+device mosfet pmos 62 198 63 199 2 19 "vdd" "Equal_a0_b0" 4 0 "a_42_194#" 19 0 "vdd" 19 0
+device mosfet pmos 52 198 53 199 2 19 "vdd" "Lt_A1_B1" 4 0 "vdd" 19 0 "a_42_194#" 19 0
+device mosfet nmos 218 243 219 244 2 15 "vss" "2bit_greater" 4 0 "2bit_equal" 15 0 "vss" 15 0
+device mosfet nmos 208 243 209 244 2 15 "vss" "2bit_less" 4 0 "vss" 15 0 "2bit_equal" 15 0
+device mosfet nmos 162 238 163 239 2 14 "vss" "a_135_245#" 4 0 "vss" 14 0 "GT_a_B_cas1" 14 0
+device mosfet nmos 149 238 150 239 2 13 "vss" "Gt_A1_B1" 4 0 "a_144_238#" 13 0 "vss" 13 0
+device mosfet nmos 142 238 143 239 2 13 "vss" "Equal_a0_b0" 4 0 "a_135_245#" 13 0 "a_144_238#" 13 0
+device mosfet nmos 112 241 113 242 2 8 "vss" "GT_a_B_cas1" 4 0 "a_92_194#" 8 0 "vss" 8 0
+device mosfet pmos 42 198 43 199 2 28 "vdd" "a_42_194#" 4 0 "2bit_less_case1" 28 0 "vdd" 28 0
+device mosfet pmos 18 198 19 199 2 28 "vdd" "2bit_less_case1" 4 0 "a_13_198#" 28 0 "a_n2_194#" 28 0
+device mosfet pmos 11 198 12 199 2 28 "vdd" "Lt_a0_b0" 4 0 "vdd" 28 0 "a_13_198#" 28 0
+device mosfet pmos -2 198 -1 199 2 28 "vdd" "a_n2_194#" 4 0 "2bit_less" 28 0 "vdd" 28 0
+device mosfet nmos 102 243 103 244 2 8 "vss" "Gt_a0_b0" 4 0 "vss" 8 0 "a_92_194#" 8 0
+device mosfet nmos 92 238 93 239 2 14 "vss" "a_92_194#" 4 0 "2bit_greater" 14 0 "vss" 14 0
+device mosfet nmos 62 238 63 239 2 13 "vss" "Equal_a0_b0" 4 0 "a_57_238#" 13 0 "a_42_194#" 13 0
+device mosfet nmos 55 238 56 239 2 13 "vss" "Lt_A1_B1" 4 0 "vss" 13 0 "a_57_238#" 13 0
+device mosfet nmos 42 238 43 239 2 14 "vss" "a_42_194#" 4 0 "2bit_less_case1" 14 0 "vss" 14 0
+device mosfet nmos 18 241 19 242 2 8 "vss" "2bit_less_case1" 4 0 "a_n2_194#" 8 0 "vss" 8 0
+device mosfet nmos 8 243 9 244 2 8 "vss" "Lt_a0_b0" 4 0 "vss" 8 0 "a_n2_194#" 8 0
+device mosfet nmos -2 238 -1 239 2 14 "vss" "a_n2_194#" 4 0 "2bit_less" 14 0 "vss" 14 0
+subcap "A0" -323.337
+subcap "neg_A1" -34.8708
+subcap "a_140_3#" -15.4252
+subcap "Equal_A1_B1" -10.5807
+subcap "B1" -222.981
+subcap "Gt_A1_B1" -159.198
+subcap "Equal_a0_b0" -210.037
+subcap "Lt_A1_B1" -217.489
+subcap "a_42_194#" -50.0854
+subcap "2bit_less_case1" -88.311
+subcap "a_n2_194#" -46.9902
+subcap "A1" -309.978
+subcap "GT_a_B_cas1" -101.86
+subcap "a_92_194#" -46.9902
+subcap "Lt_a0_b0" -159.847
+subcap "a_135_245#" -2.4656
